@@ -13,9 +13,9 @@
   --success: #16a34a;
   --success-soft: rgba(22, 163, 74, 0.12);
   --hero-gradient: linear-gradient(135deg, #fff5f7 0%, #ffffff 48%, #f8fbff 100%);
-  --step-num-bg: #e85a6f;
-  --step-num-bg-dark: #d43d55;
-  --step-num-shadow: rgba(212, 61, 85, 0.28);
+  --step-num-bg: #ff1744;
+  --step-num-bg-dark: #d50032;
+  --step-num-shadow: rgba(255, 0, 51, 0.42);
   --shadow-sm: 0 4px 16px rgba(15, 23, 42, 0.06);
   --shadow-md: 0 12px 40px rgba(15, 23, 42, 0.1);
   --shadow-lg: 0 24px 60px rgba(255, 0, 51, 0.12);
@@ -38,9 +38,9 @@ html.welcome-theme-dark {
     --shadow-sm: 0 4px 16px rgba(0, 0, 0, 0.28);
     --shadow-md: 0 12px 40px rgba(0, 0, 0, 0.35);
     --shadow-lg: 0 24px 60px rgba(255, 0, 51, 0.18);
-    --step-num-bg: #f07185;
-    --step-num-bg-dark: #e04d65;
-    --step-num-shadow: rgba(224, 77, 101, 0.32);
+    --step-num-bg: #ff3158;
+    --step-num-bg-dark: #e00035;
+    --step-num-shadow: rgba(255, 23, 68, 0.48);
   color-scheme: dark;
 }
 
