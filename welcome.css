@@ -394,7 +394,8 @@ html.welcome-theme-dark .theme-toggle__icon_sun {
 }
 
 .step-figure_youtube img {
-  width: 100%;
+  width: calc(100% + 8px);
+  max-width: none;
   min-height: 220px;
   object-fit: cover;
 }
