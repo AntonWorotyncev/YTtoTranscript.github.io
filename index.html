@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to YT to Transcript</title>
+    <link rel="stylesheet" href="welcome.css" />
+  </head>
+  <body>
+    <div class="page-bg" aria-hidden="true"></div>
+
+    <div class="page-controls">
+      <button
+        type="button"
+        id="welcome_theme_toggle"
+        class="theme-toggle"
+        data-i18n-aria="themeNightAria"
+        aria-label="Switch to night mode"
+        title="Night mode"
+      >
+        <svg class="theme-toggle__icon theme-toggle__icon_moon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M20 14.5A8.5 8.5 0 0 1 9.5 4 7 7 0 1 0 20 14.5Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <svg class="theme-toggle__icon theme-toggle__icon_sun" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.5"/>
+          <path d="M12 3V5M12 19V21M5 12H3M21 12H19M6.34 6.34L4.93 4.93M19.07 19.07L17.66 17.66M17.66 6.34L19.07 4.93M4.93 19.07L6.34 17.66" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+        </svg>
+      </button>
+      <label class="language-switch" for="welcome_language_select">
+        <span data-i18n="languageLabel">Language</span>
+        <select id="welcome_language_select" aria-label="Language"></select>
+      </label>
+    </div>
+
+    <main class="page">
+
+      <section class="hero">
+        <header class="top">
+          <div class="brand">
+            <div class="brand-icon-wrap">
+              <img class="brand-icon" src="48.png" alt="" width="48" height="48" />
+            </div>
+            <div>
+              <p class="badge" data-i18n="badge">Installed successfully</p>
+              <h1 class="brand-title">
+                <span class="brand-title__text">
+                  <span class="brand-title__yt" data-i18n="brandYouTube">YT</span><span class="brand-title__sep" data-i18n="brandTo"> to </span><span class="brand-title__name" data-i18n="brandTranscript">Transcript</span>
+                </span>
+              </h1>
+            </div>
+          </div>
+        </header>
+
+        <p class="intro" data-i18n="heroDescription">
+          Get transcripts and AI summaries on any YouTube video. Follow three quick steps below.
+        </p>
+      </section>
+
+      <section class="onboarding" aria-labelledby="onboarding-title">
+        <h2 id="onboarding-title" class="onboarding-title" data-i18n="onboardingTitle">Start in 3 steps</h2>
+
+        <ol class="onboarding-steps">
+          <li class="onboard-step step-card">
+            <div class="step-head">
+              <span class="step-num" aria-hidden="true">1</span>
+              <div class="step-copy">
+                <h3 data-i18n="step1Title">Pin extension to toolbar</h3>
+                <p data-i18n="step1Text">
+                  Click the puzzle icon in the top-right corner of your browser, then click the pin next to
+                  YT to Transcript to keep it visible on the toolbar:
+                </p>
+              </div>
+            </div>
+            <figure class="step-figure step-figure_pin">
+              <img
+                src="welcome-pin.png"
+                alt="How to pin the extension in Chrome"
+                data-i18n-alt="guidePinAlt"
+                loading="lazy"
+              />
+            </figure>
+          </li>
+
+          <li class="onboard-step step-card">
+            <div class="step-head">
+              <span class="step-num" aria-hidden="true">2</span>
+              <div class="step-copy">
+                <h3 data-i18n="step2Title">Open any YouTube video</h3>
+                <p data-i18n="step2Text">The panel appears on the right, under the video description area.</p>
+              </div>
+            </div>
+            <figure class="step-figure step-figure_youtube">
+              <div class="step-figure-overlay">
+                <img
+                  src="welcome-youtube.png"
+                  alt="Extension panel on a YouTube video page"
+                  data-i18n-alt="guidePanelAlt"
+                  loading="lazy"
+                />
+                <div class="plugin-highlight" aria-hidden="true"></div>
+              </div>
+              <figcaption data-i18n="guidePanelCaption">Click the bar to open Transcript · Summary · Ask</figcaption>
+            </figure>
+          </li>
+
+          <li class="onboard-step step-card step-card_features">
+            <div class="step-head">
+              <span class="step-num" aria-hidden="true">3</span>
+              <div class="step-copy">
+                <h3 data-i18n="step3Title">Choose what you need</h3>
+                <p data-i18n="step3Text">Sign in to ChatGPT or DeepSeek only when you generate a summary or ask a question.</p>
+              </div>
+            </div>
+            <ul class="feature-list">
+              <li>
+                <span class="feature-icon feature-icon_transcript" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M8 4h8a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2Z"/>
+                    <path d="M9 9h6M9 13h6M9 17h4"/>
+                  </svg>
+                </span>
+                <span data-i18n="step3Item1">Transcript — read, search, and copy subtitles</span>
+              </li>
+              <li>
+                <span class="feature-icon feature-icon_summary" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 3l1.6 4.9H19l-4 2.9 1.5 4.6L12 13.8 7.5 15.4 9 10.8 5 7.9h5.4L12 3Z"/>
+                    <path d="M5 19h14"/>
+                  </svg>
+                </span>
+                <span data-i18n="step3Item2">Summary — AI overview of the video</span>
+              </li>
+              <li>
+                <span class="feature-icon feature-icon_ask" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M7 9a5 5 0 0 1 9.6-1.5A4.5 4.5 0 1 1 12 18H8"/>
+                    <path d="M9 21h3M12 18v3"/>
+                  </svg>
+                </span>
+                <span data-i18n="step3Item3">Ask — question about the video</span>
+              </li>
+            </ul>
+          </li>
+        </ol>
+      </section>
+
+      <section class="cta">
+        <div class="cta-card">
+          <p class="cta-eyebrow" data-i18n="ctaEyebrow">You're all set</p>
+          <a
+            class="button"
+            href="https://www.youtube.com/watch?v=YRvf00NooN8&t=3013s"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-i18n="openYoutube"
+          >
+            Open YouTube and try it
+          </a>
+          <p class="footer-note" data-i18n="footerNote">Tip: change the interface language in the panel header anytime.</p>
+        </div>
+      </section>
+    </main>
+    <script type="module" src="welcome.js"></script>
+  </body>
+</html>
