@@ -57,8 +57,7 @@ async function resolveLocale() {
     // ignore storage read errors
   }
 
-  const fromBrowser = normalizeLocale(navigator.language || "");
-  return fromBrowser || "en";
+  return "en";
 }
 
 async function getStoredTheme() {
