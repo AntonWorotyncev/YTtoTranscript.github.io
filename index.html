@@ -55,38 +55,58 @@
         </header>
 
         <p class="intro" data-i18n="heroDescription">
-          Get transcripts and AI summaries on any YouTube video. Follow three quick steps below.
+          Get transcripts and AI summaries on any YouTube video.
         </p>
       </section>
 
-      <section class="onboarding" aria-labelledby="onboarding-title">
-        <h2 id="onboarding-title" class="onboarding-title" data-i18n="onboardingTitle">Start in 3 steps</h2>
+      <section class="welcome-offer">
+        <h2 class="welcome-offer__title" data-i18n="step3Title">Choose what you need</h2>
+        <p class="welcome-offer__text" data-i18n="step3Text">Sign in to ChatGPT or DeepSeek only when you generate a summary or ask a question.</p>
+        <ul class="feature-list">
+          <li>
+            <span class="feature-icon feature-icon_transcript" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+                <path d="m10.5 3 1.8 5.2 5.2 1.8-5.2 1.8-1.8 5.2-1.8-5.2L3.5 10l5.2-1.8L10.5 3Z"/>
+                <path d="m18.5 15 .7 2.3 2.3.7-2.3.7-.7 2.3-.7-2.3-2.3-.7 2.3-.7.7-2.3Z"/>
+              </svg>
+            </span>
+            <span data-i18n="step3Item1">Transcript — read, search, and copy subtitles</span>
+          </li>
+          <li>
+            <span class="feature-icon feature-icon_summary" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+                <path d="m10.5 3 1.8 5.2 5.2 1.8-5.2 1.8-1.8 5.2-1.8-5.2L3.5 10l5.2-1.8L10.5 3Z"/>
+                <path d="m18.5 15 .7 2.3 2.3.7-2.3.7-.7 2.3-.7-2.3-2.3-.7 2.3-.7.7-2.3Z"/>
+              </svg>
+            </span>
+            <span data-i18n="step3Item2">Summary — AI overview of the video</span>
+          </li>
+          <li>
+            <span class="feature-icon feature-icon_ask" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+                <path d="m10.5 3 1.8 5.2 5.2 1.8-5.2 1.8-1.8 5.2-1.8-5.2L3.5 10l5.2-1.8L10.5 3Z"/>
+                <path d="m18.5 15 .7 2.3 2.3.7-2.3.7-.7 2.3-.7-2.3-2.3-.7 2.3-.7.7-2.3Z"/>
+              </svg>
+            </span>
+            <span data-i18n="step3Item3">Ask — question about the video</span>
+          </li>
+        </ul>
+        <a
+          class="button button_large"
+          href="https://www.youtube.com/watch?v=YRvf00NooN8&t=3013s"
+          target="_blank"
+          rel="noopener noreferrer"
+          data-i18n="tryButton"
+        >
+          Try it
+        </a>
+      </section>
 
+      <section class="onboarding">
         <ol class="onboarding-steps">
           <li class="onboard-step step-card">
             <div class="step-head">
               <span class="step-num" aria-hidden="true">1</span>
-              <div class="step-copy">
-                <h3 data-i18n="step1Title">Pin extension to toolbar</h3>
-                <p data-i18n="step1Text">
-                  Click the puzzle icon in the top-right corner of your browser, then click the pin next to
-                  YT to Transcript to keep it visible on the toolbar:
-                </p>
-              </div>
-            </div>
-            <figure class="step-figure step-figure_pin">
-              <img
-                src="welcome-pin.png"
-                alt="How to pin the extension in Chrome"
-                data-i18n-alt="guidePinAlt"
-                loading="lazy"
-              />
-            </figure>
-          </li>
-
-          <li class="onboard-step step-card">
-            <div class="step-head">
-              <span class="step-num" aria-hidden="true">2</span>
               <div class="step-copy">
                 <h3 data-i18n="step2Title">Open any YouTube video</h3>
                 <p data-i18n="step2Text">The panel appears on the right, under the video description area.</p>
@@ -108,62 +128,7 @@
               <figcaption data-i18n="guidePanelCaption">Click the bar to open Transcript · Summary · Ask</figcaption>
             </figure>
           </li>
-
-          <li class="onboard-step step-card step-card_features">
-            <div class="step-head">
-              <span class="step-num" aria-hidden="true">3</span>
-              <div class="step-copy">
-                <h3 data-i18n="step3Title">Choose what you need</h3>
-                <p data-i18n="step3Text">Sign in to ChatGPT or DeepSeek only when you generate a summary or ask a question.</p>
-              </div>
-            </div>
-            <ul class="feature-list">
-              <li>
-                <span class="feature-icon feature-icon_transcript" aria-hidden="true">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
-                    <path d="m10.5 3 1.8 5.2 5.2 1.8-5.2 1.8-1.8 5.2-1.8-5.2L3.5 10l5.2-1.8L10.5 3Z"/>
-                    <path d="m18.5 15 .7 2.3 2.3.7-2.3.7-.7 2.3-.7-2.3-2.3-.7 2.3-.7.7-2.3Z"/>
-                  </svg>
-                </span>
-                <span data-i18n="step3Item1">Transcript — read, search, and copy subtitles</span>
-              </li>
-              <li>
-                <span class="feature-icon feature-icon_summary" aria-hidden="true">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
-                    <path d="m10.5 3 1.8 5.2 5.2 1.8-5.2 1.8-1.8 5.2-1.8-5.2L3.5 10l5.2-1.8L10.5 3Z"/>
-                    <path d="m18.5 15 .7 2.3 2.3.7-2.3.7-.7 2.3-.7-2.3-2.3-.7 2.3-.7.7-2.3Z"/>
-                  </svg>
-                </span>
-                <span data-i18n="step3Item2">Summary — AI overview of the video</span>
-              </li>
-              <li>
-                <span class="feature-icon feature-icon_ask" aria-hidden="true">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
-                    <path d="m10.5 3 1.8 5.2 5.2 1.8-5.2 1.8-1.8 5.2-1.8-5.2L3.5 10l5.2-1.8L10.5 3Z"/>
-                    <path d="m18.5 15 .7 2.3 2.3.7-2.3.7-.7 2.3-.7-2.3-2.3-.7 2.3-.7.7-2.3Z"/>
-                  </svg>
-                </span>
-                <span data-i18n="step3Item3">Ask — question about the video</span>
-              </li>
-            </ul>
-          </li>
         </ol>
-      </section>
-
-      <section class="cta">
-        <div class="cta-card">
-          <p class="cta-eyebrow" data-i18n="ctaEyebrow">You're all set</p>
-          <a
-            class="button"
-            href="https://www.youtube.com/watch?v=R2meHtrO1n8"
-            target="_blank"
-            rel="noopener noreferrer"
-            data-i18n="openYoutube"
-          >
-            Open YouTube and try it
-          </a>
-          <p class="footer-note" data-i18n="footerNote">Tip: change the interface language in the panel header anytime.</p>
-        </div>
       </section>
     </main>
     <script type="module" src="welcome.js"></script>

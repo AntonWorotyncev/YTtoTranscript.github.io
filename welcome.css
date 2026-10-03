@@ -505,6 +505,45 @@ html.welcome-theme-dark .feature-icon_ask {
   color: #a78bfa;
 }
 
+.welcome-offer {
+  display: grid;
+  gap: 18px;
+  justify-items: center;
+  margin-bottom: 28px;
+  padding: 32px 28px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  background: var(--surface);
+  box-shadow: var(--shadow-md);
+  text-align: center;
+}
+
+.welcome-offer__title {
+  margin: 0;
+  font-size: 28px;
+  line-height: 1.2;
+}
+
+.welcome-offer__text {
+  margin: 0;
+  max-width: 560px;
+  color: var(--text-muted);
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.welcome-offer .feature-list {
+  align-items: center;
+}
+
+.button_large {
+  max-width: 560px;
+  min-height: 72px;
+  margin-top: 8px;
+  padding: 22px 40px;
+  font-size: 24px;
+}
+
 .cta {
   margin-top: 24px;
 }

@@ -13,7 +13,8 @@ export const WELCOME_MESSAGES = {
     brandYouTube: "YT",
     brandTo: " to ",
     brandTranscript: "Transcript",
-    heroDescription: "Get transcripts and AI summaries on any YouTube video. Follow three quick steps below.",
+    heroDescription: "Get transcripts and AI summaries on any YouTube video.",
+    tryButton: "Try it",
     onboardingTitle: "Start in 3 steps",
     step1Title: "Pin extension to toolbar",
     step1Text:
@@ -45,7 +46,8 @@ export const WELCOME_MESSAGES = {
     brandYouTube: "YT",
     brandTo: " to ",
     brandTranscript: "Transcript",
-    heroDescription: "Транскрипции и AI-саммари на любом видео YouTube. Три простых шага ниже.",
+    heroDescription: "Транскрипции и AI-саммари на любом видео YouTube.",
+    tryButton: "Попробовать",
     onboardingTitle: "3 шага для старта",
     step1Title: "Закрепите расширение на панели",
     step1Text:
@@ -77,7 +79,8 @@ export const WELCOME_MESSAGES = {
     brandYouTube: "YT",
     brandTo: " to ",
     brandTranscript: "Transcript",
-    heroDescription: "Транскрипції та AI-резюме на будь-якому відео YouTube. Три прості кроки нижче.",
+    heroDescription: "Транскрипції та AI-резюме на будь-якому відео YouTube.",
+    tryButton: "Спробувати",
     onboardingTitle: "3 кроки для старту",
     step1Title: "Закріпіть розширення на панелі",
     step1Text:
@@ -109,7 +112,8 @@ export const WELCOME_MESSAGES = {
     brandYouTube: "YT",
     brandTo: " to ",
     brandTranscript: "Transcript",
-    heroDescription: "Transkripte und KI-Zusammenfassungen für jedes YouTube-Video. Drei kurze Schritte:",
+    heroDescription: "Transkripte und KI-Zusammenfassungen für jedes YouTube-Video.",
+    tryButton: "Ausprobieren",
     onboardingTitle: "Start in 3 Schritten",
     step1Title: "Erweiterung an die Symbolleiste anheften",
     step1Text:
@@ -141,7 +145,8 @@ export const WELCOME_MESSAGES = {
     brandYouTube: "YT",
     brandTo: " to ",
     brandTranscript: "Transcript",
-    heroDescription: "Transcripciones y resúmenes con IA en cualquier video de YouTube. Tres pasos rápidos:",
+    heroDescription: "Transcripciones y resúmenes con IA en cualquier video de YouTube.",
+    tryButton: "Probar",
     onboardingTitle: "Empieza en 3 pasos",
     step1Title: "Fija la extensión en la barra",
     step1Text:
@@ -173,7 +178,8 @@ export const WELCOME_MESSAGES = {
     brandYouTube: "YT",
     brandTo: " to ",
     brandTranscript: "Transcript",
-    heroDescription: "Transcriptions et résumés IA sur n’importe quelle vidéo YouTube. Trois étapes simples :",
+    heroDescription: "Transcriptions et résumés IA sur n’importe quelle vidéo YouTube.",
+    tryButton: "Essayer",
     onboardingTitle: "Commencer en 3 étapes",
     step1Title: "Épingler l’extension à la barre",
     step1Text:
@@ -205,7 +211,8 @@ export const WELCOME_MESSAGES = {
     brandYouTube: "YT",
     brandTo: " to ",
     brandTranscript: "Transcript",
-    heroDescription: "Transcrições e resumos com IA em qualquer vídeo do YouTube. Três passos rápidos:",
+    heroDescription: "Transcrições e resumos com IA em qualquer vídeo do YouTube.",
+    tryButton: "Experimentar",
     onboardingTitle: "Comece em 3 passos",
     step1Title: "Fixar a extensão na barra",
     step1Text:
@@ -237,7 +244,8 @@ export const WELCOME_MESSAGES = {
     brandYouTube: "YT",
     brandTo: " to ",
     brandTranscript: "Transcript",
-    heroDescription: "在任何 YouTube 视频上获取字幕和 AI 摘要。只需三个简单步骤。",
+    heroDescription: "在任何 YouTube 视频上获取字幕和 AI 摘要。",
+    tryButton: "试一试",
     onboardingTitle: "3 步开始",
     step1Title: "将扩展固定到工具栏",
     step1Text:
@@ -269,7 +277,8 @@ export const WELCOME_MESSAGES = {
     brandYouTube: "YT",
     brandTo: " to ",
     brandTranscript: "Transcript",
-    heroDescription: "YouTube 動画の字幕と AI 要約。3 つの簡単なステップです。",
+    heroDescription: "YouTube 動画の字幕と AI 要約。",
+    tryButton: "試してみる",
     onboardingTitle: "3 ステップで開始",
     step1Title: "拡張機能をツールバーにピン留め",
     step1Text:
