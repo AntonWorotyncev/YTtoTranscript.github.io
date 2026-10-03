@@ -535,10 +535,11 @@ html.welcome-theme-dark .feature-icon_ask {
   line-height: 1.5;
 }
 
-.button_large {
-  max-width: 560px;
+.step-card .button_large {
+  width: 100%;
+  max-width: none;
   min-height: 72px;
-  margin-top: 8px;
+  margin-top: 16px;
   padding: 22px 40px;
   font-size: 24px;
 }
