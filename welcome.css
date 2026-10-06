@@ -568,10 +568,18 @@ html.welcome-theme-dark .feature-icon_ask {
   color: var(--accent);
 }
 
+.button__rocket {
+  width: 1.15em;
+  height: 1.15em;
+  flex-shrink: 0;
+  transform: rotate(-28deg);
+}
+
 .button {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  gap: 10px;
   width: 100%;
   max-width: 380px;
   padding: 15px 24px;
